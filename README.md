@@ -81,13 +81,13 @@ npm install
 
 ```javascript
 const firebaseConfig = {
-  apiKey: "AIzaSyB7UlHYhLuDzRKIvy-TATNaUW2sVB036yw",
-  authDomain: "saude-plus-aee97.firebaseapp.com",
-  projectId: "saude-plus-aee97",
-  storageBucket: "saude-plus-aee97.firebasestorage.app",
-  messagingSenderId: "957852499782",
-  appId: "1:957852499782:web:f8d4078f5a24ae1a6faf47",
-  measurementId: "G-637WCJLBEN"
+  apiKey: "SUA_API_KEY_AQUI",
+  authDomain: "sseu-projeto.firebaseapp.com",
+  projectId: "seu-projeto-id",
+  storageBucket: "seu-projeto.appspot.com",
+  messagingSenderId: "000000000000",
+  appId: "1:000000000000:web:xxxxxxxxxxxxxxxxxxxxxx",
+  measurementId: "G-XXXXXXXXXX"
 };
 ```
 
