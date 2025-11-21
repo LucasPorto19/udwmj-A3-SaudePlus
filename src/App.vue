@@ -13,6 +13,11 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import HeaderNav from './components/HeaderNav.vue'
 import FooterBar from './components/FooterBar.vue'
+import { useAuthStore } from './stores/auth'
+
+const authStore = useAuthStore()
+authStore.initAuth()
+
 
 const route = useRoute()
 

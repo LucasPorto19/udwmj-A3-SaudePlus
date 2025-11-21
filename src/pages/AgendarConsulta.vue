@@ -165,7 +165,7 @@ const handleSubmit = async () => {
   try {
     // Criar agendamento no Firestore
     await addDoc(collection(db, 'appointments'), {
-      userId: authStore.user.uid,
+      userId: authStore.user?.uid,
       especialidade: form.value.especialidade,
       unidade: form.value.unidade,
       date: Timestamp.fromDate(selectedDate),
